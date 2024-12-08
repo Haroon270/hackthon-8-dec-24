@@ -6,7 +6,6 @@ import carD from "../../../public/carD.png";
 import carE from "../../../public/carE.png";
 import carF from "../../../public/carF.png";
 import carG from "../../../public/carG.png";
-import carH from "../../../public/carH.png";
 import Redheart from "../../../public/Redheart.png";
 import Image from "next/image";
 import Button from "../Rent/page";
@@ -63,14 +62,7 @@ function MoreCars() {
       carPicture: carG,
       Heart: Redheart,
     },
-    {
-      carName: "MG ZS",
-      model: "Sport",
-      rate: "$80.00/day",
-      carPicture: carH,
-      Heart: Redheart,
-    },
-    {
+      {
       carName: "MG ZS",
       model: "Sport",
       rate: "$78.00/day",
