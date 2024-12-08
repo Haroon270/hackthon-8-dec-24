@@ -7,7 +7,7 @@ import heart from "../../../public/heart.png";
 import Redheart from "../../../public/Redheart.png";
 import Spesification from "../../../public/Spesification.png";
 import Button from "../Rent/page";
-
+import { FaRegHeart } from "react-icons/fa6";
 
 function Cars() {
   const cardata = [
@@ -51,11 +51,8 @@ function Cars() {
                 {veh.carName}
               </h1>
               <h4 className="text-[14px] -my-6 px-4">{veh.model}</h4>
-              <img
-                className="w-[24px] h-[24px] ml-[256px] -my-[10px]"
-                src="/Redheart.png"
-                alt="heart"
-              />
+
+              <FaRegHeart className="ml-64" />
               <Image
                 className="pt-20  "
                 src={veh.carPicture}
@@ -63,13 +60,17 @@ function Cars() {
                 width={500}
                 height={500}
               />
-
-              <img
+              <Image
                 className="w-[256px] h-[24px]  ml-4 mt-6"
-                src="/Spesification.png"
+                src={"/Spesification.png"}
                 alt="Spec"
+                width={200}
+                height={200}
               />
-                <h4 className="font-semibold mx-6 justify-between my-10 flex">  {veh.rate} <Button/></h4>
+              <h4 className="font-semibold mx-6 justify-between my-10 flex">
+                {" "}
+                {veh.rate} <Button />
+              </h4>
               {/* <button className='bg-blue-700 h-[44px] w-[116px] text-white rounded-sm  '>RentNow</button> */}
             </div>
           </div>

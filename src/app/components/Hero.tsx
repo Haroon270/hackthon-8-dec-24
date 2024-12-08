@@ -4,7 +4,7 @@ import car2 from "../../../public/car2.png";
 import Pick from "../../../public/Pick.png";
 import Drop from "../../../public/Drop.png";
 import Switch from "../../../public/Switch.png";
-
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -21,11 +21,17 @@ function Hero() {
           </button>
         </div>
         <div className="flex justify-center pb-6">
-          <img src="/car1.png" alt="Car Phtot" />
+        <Image
+                className="pb-10 "
+                src={"/car1.png"}
+                alt="pick-Up"
+                width={400}
+                height={400}
+              />
         </div>
         <div className="flex justify-center pb-6">
           {" "}
-          <img src="/Pick.png" alt="pick-Up" />
+          
         </div>
       </div>
 
@@ -43,11 +49,18 @@ function Hero() {
         </div>
         <div>
         <div className="flex justify-center pb-6">
-          <img src="/car2.png" alt="Car Phtot" />
+        
+        <Image
+                className="pb-10 "
+                src={"/car2.png"}
+                alt="pick-Up"
+                width={350}
+                height={350}
+              />
         </div>
         <div>
           {" "}
-          <img className="pb-10" src="/Drop.png" alt="Drop" />
+      
         </div>
         </div>
       </div>

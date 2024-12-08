@@ -1,12 +1,12 @@
 import React from "react";
 import { IoSearch } from "react-icons/io5";
 import { TbAdjustmentsHorizontal } from "react-icons/tb";
-import adjustment from "../../../public/filter.png";
-import search from "../../../public/search.png";
-import heart from "../../../public/heart.png";
-import notification from "../../../public/notification.png";
-import setting from "../../../public/setting.png";
-import dp from "../../../public/dp.png";
+import Image from "next/image";
+import { FaSearch } from "react-icons/fa";
+import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
+import { FaRegHeart } from "react-icons/fa6";
+import { IoNotifications } from "react-icons/io5";
+import { CiSettings } from "react-icons/ci";
 
 function Navbar() {
   return (
@@ -16,22 +16,30 @@ function Navbar() {
       </div>
       {/* Search div */}
       <div className=" flex h-[44px] mt-[40px] mr-[212px] border-[1px] bg-white justify-items-start items-center text-black rounded-full w-[492px]">
-        <img className="px-6" src="/search.png" alt="Search" />
+      <FaSearch className="text-3xl"/>
         <input
           className=" flex text-start border-none text-[14px]"
           type="text"
           placeholder="Search something here"
         />
-        <img className=" px-44 " src="/filter.png" alt="setting" />
+       <HiOutlineAdjustmentsHorizontal className="text-3xl ml-4" />
       </div>
 
       {/* Right side */}
 
       <div className="flex justify-end bg-white w-[236px] h-[44px] mt-[40px] ml-[160px] gap-[20px] ">
-        <img src="/heart.png" alt="heart" />
-        <img src="/notification.png" alt="notification" />
-        <img src="/setting.png" alt="setting" />
-        <img src="/dp.png" alt="Dp" />
+      <FaRegHeart className="text-4xl"/>
+      <IoNotifications className="text-4xl"/>
+      <CiSettings className="text-4xl"/>
+
+      <Image
+
+                src={"/dp.png"}
+                alt="car1"
+                width={50}
+                height={50}
+              />
+      
       </div>
     </div>
   );
