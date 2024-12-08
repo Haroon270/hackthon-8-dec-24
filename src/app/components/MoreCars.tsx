@@ -1,15 +1,15 @@
 import React from 'react'
-import carA from "../../../public/carA.png"
-import carB from "../../../public/carB.png"
-import carC from "../../../public/carC.png"
-import carD from "../../../public/carD.png"
-import carE from "../../../public/carE.png"
-import carF from "../../../public/carF.png"
-import carG from "../../../public/carG.png"
-import carH from "../../../public/carH.png"
-import Redheart from "../../../public/Redheart.png"
-import Image from 'next/image'
-import Button from '../Rent/page'
+import carA from "../../../public/carA.png";
+import carB from "../../../public/carB.png";
+import carC from "../../../public/carC.png";
+import carD from "../../../public/carD.png";
+import carE from "../../../public/carE.png";
+import carF from "../../../public/carF.png";
+import carG from "../../../public/carG.png";
+import carH from "../../../public/carH.png";
+import Redheart from "../../../public/Redheart.png";
+import Image from 'next/image';
+import Button from '../Rent/page';
 
 
 function MoreCars() {
