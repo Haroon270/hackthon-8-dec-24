@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="pt-30">
-      <div className="flex w-[1440px] h-[360px] bg-slate-50 mx-auto">
+      <div className="flex w-[1440px] h-[360px] bg-slate-100 mx-auto">
       <div className="w-1/2">
         <h1 className=" w-[148px] mt-[80px] mx-[60px] text-[#3563E9] font-bold text-[32px] ">
           MORENT
@@ -40,7 +40,7 @@ function Footer() {
         </ul>
       </div>
     </div>
-    <div className=" w-[1440px] h-[120px] bg-slate-50 mx-auto">
+    <div className=" w-[1440px] h-[120px] bg-slate-100 mx-auto">
       <ul className="flex mx-[60px] justify-between">
 
         <li>©2022 MORENT. All rights reserved</li>

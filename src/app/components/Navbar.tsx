@@ -10,7 +10,7 @@ import { CiSettings } from "react-icons/ci";
 
 function Navbar() {
   return (
-    <div className="bg-slate-50 w-[1440px] h-[124px] border-[1px] mx-auto flex">
+    <div className="bg-slate-100 w-[1440px] h-[124px] border-[1px] mx-auto flex">
       <div className=" w-[148px] mt-[40px] mx-[60px] text-[#3563E9] font-bold text-[32px] ">
         MORENT
       </div>
@@ -18,11 +18,11 @@ function Navbar() {
       <div className=" flex h-[44px] mt-[40px] mr-[212px] border-[1px] bg-white justify-items-start items-center text-black rounded-full w-[492px]">
       <FaSearch className="text-3xl"/>
         <input
-          className=" flex text-start border-none text-[14px]"
+          className=" ml-10 flex text-start border-none text-[14px]"
           type="text"
           placeholder="Search something here"
         />
-       <HiOutlineAdjustmentsHorizontal className="text-3xl ml-4" />
+       <HiOutlineAdjustmentsHorizontal className="text-3xl  ml-44" />
       </div>
 
       {/* Right side */}

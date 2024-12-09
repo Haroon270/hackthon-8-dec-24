@@ -41,10 +41,12 @@ function Cars() {
     },
   ];
   return (
-    <div className="bg-slate-100 flex gap-4 flex-wrap justify-center mt-60">
+    <div className="bg-slate-100 flex gap-4 flex-wrap justify-center mt-44 w-[1440px] mx-auto">
       {cardata.map((veh) => {
         return (
+          
           <div key={veh.carName}>
+            
             <div className="flex flex-col bg-white h-[388px] w-[304px] border-2 my-1  pt-800 ">
               <h1 className=" flex text-[20px] text-black justify-start cursor-pointer w-[156px] h-[48px] mt-3 px-4">
                 {" "}

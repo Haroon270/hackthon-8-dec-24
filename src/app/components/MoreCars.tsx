@@ -71,7 +71,7 @@ function MoreCars() {
     },
   ];
   return (
-    <div className="bg-slate-50 flex gap-4 flex-wrap justify-center mt-20 items-center">
+    <div className="bg-slate-100 flex gap-4 flex-wrap justify-center mt-20 items-center mx-auto w-[1440px]">
       <p></p>
       {cars.map((vehi) => {
         return (
@@ -83,7 +83,7 @@ function MoreCars() {
               </h1>
               <h4 className="text-[14px] -my-2 px-4">{vehi.model}</h4>
 
-              <FaRegHeart className="ml-64" />
+              <FaRegHeart className="ml-60 text-2xl" />
 
               <Image
                 className="pt-20  "

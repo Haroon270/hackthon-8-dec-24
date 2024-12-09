@@ -8,7 +8,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex justify-around w-[1440px] h-[360px] bg-slate-50 mx-auto mb-300">
+    <div className="flex justify-around w-[1440px] h-[360px] bg-slate-100 mx-auto ">
       <div className="w-[640px] h-[360px] bg-blue-300 mt-[32px] ml-[64px text-white flex flex-col pt-[24px] pl-[24px]">
         <div className="w-[284px] h-[224px]">
           <h1 className="text-[32px] pb-4">The Best Platform for Car Rental</h1>
